@@ -40,7 +40,7 @@ class Bot:
 		self.song_cache = {}
 	
 	async def connect(self):
-		self.lavaclient = lavalink.Client(740568766198448190)
+		self.lavaclient = lavalink.Client(int(self.user_id))
 
 		self.lavaclient.add_node(
 			host = "localhost",
