@@ -9,7 +9,7 @@ from aiohttp.client import ClientSession
 from aiohttp.client_ws import ClientWebSocketResponse
 from aiohttp.http_websocket import WSMessage
 
-# pip install -r requirements.txt --no-deps
+# pip install -r requirements.txt
 # run the command to install dependencies
 
 coloredlogs.install(
